@@ -1,3 +1,15 @@
+##################################################################################
+#Top500.org XML parse
+#
+#Coded by: Fellipe Souto <fllsouto@gmail.com>
+#
+# To run:
+# $ruby top500_xmlparse.rb <somecountryname>
+#
+# tip: The country name is optional
+##################################################################################
+
+
 require 'rexml/document'
 require 'yaml'
 include REXML #create an REXML namespace
